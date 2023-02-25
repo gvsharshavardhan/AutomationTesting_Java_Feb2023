@@ -1,0 +1,61 @@
+Front end Developer
+- UI, Websites, App UI
+Javascript, html, css - VS Code
+Angular js, nodejs, reactjs
+
+
+Back end Developer
+- API, Webservices
+- java - INtellij ,python,c,c++,kotlin, rust,go,javascript(nodejs)
+
+
+Testing done by developers - UNIT Testing
+unit tests
+
+
+Complier based
+
+java -> bytecode -> jvm
+0,1
+
+interpreted lang - python
+print abc
+
+javacomplier -> jvm(bytecode)
+
+
+native -> java,kotlin
+hybrid -> flutter, Dart
+ios -> swift
+
+wora
+write once read anywhere
+
+jvm
+
+win -> jvm win
+lin
+mac
+
+shortcuts:
+-------------
+ctrl + d -> duplicate line
+ctrl + alt + l -> format code
+ctrl + / => comment line
+
+block comment:
+-------------
+/**
+dummy content
+dummy content
+dummy content
+**/
+
+for:
+when we are sure with no of iterations
+
+while:
+when we are not sure with no of iterations but we know when to stop
+
+do while:
+executes the code at least once even if the condition is false
