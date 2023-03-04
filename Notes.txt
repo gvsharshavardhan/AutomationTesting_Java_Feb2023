@@ -59,3 +59,44 @@ when we are not sure with no of iterations but we know when to stop
 
 do while:
 executes the code at least once even if the condition is false
+
+
+static:
+------------
+Memory for static entities will be assigned during class loading
+
+.java
+compile -> .class
+.class will be loaded into JVM(java virtual machine) -> class loading
+run
+
+when ever you are creating an object during run, then memory will be assigned to instance entities
+
+
+1 kitchen, n ....
+no plates
+123456..10
+
+
+4 pillars:
+------------
+1. Inheritance
+2. Polymorphism
+3. Abstraction
+4. Encapsulation
+
+Final:
+---------
+Variable -> cannot be modified
+Method -> cannot be overridden
+Class - > cannot be extended/inheritance
+Constructor -> invalid
+
+
+public
+private
+default
+protected
+
+exception handling
+collections
