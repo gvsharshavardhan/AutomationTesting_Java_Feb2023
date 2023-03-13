@@ -42,6 +42,7 @@ shortcuts:
 ctrl + d -> duplicate line
 ctrl + alt + l -> format code
 ctrl + / => comment line
+ctrl + alt + o -> removes unused imports
 
 block comment:
 -------------
@@ -100,3 +101,125 @@ protected
 
 exception handling
 collections
+
+
+
+
+
+
+
+OOPS:
+------
+Inheritance -> code resuability
+encapsulation -> security
+
+polymorphism -> reusability, having consistency
+abstraction -> if user has just an idea
+
+Class
+Object
+
+constructor - to init instance variables
+
+int a
+instance variables? -> are part of object, 5 objects, a, a,a,a,a
+static int b
+static variables -> all 5 objects share common mem space, part of class
+
+this -> is to point to the entites in your class
+super-> is to point to the entities of the parent class
+super() -> to call parent class constructor
+
+final
+------
+final void m1(){
+}
+
+cannot be overridden
+
+overriding?
+
+father
+final void m1(){
+xyz
+}
+
+daughter extends father
+void m1(){
+lmn
+}
+
+daughter d = new daughter();
+d.m1() -> lmn
+
+
+final int a; -> cannot be modified
+
+final Car{ -> cannot be extended/inherited
+}
+
+
+
+Abstraction -> abstract, interfaces
+
+protected
+default
+public
+
+packages
+
+Interface:
+-----------------
+by default,
+
+all the methods inside interface are abstract and public
+
+
+public   -> any where inside the project
+protected  -> within pkg + outside pkg(should be within inheritance)
+default   -> within pkg
+private    -> within class
+
+
+public > protected > default > private
+
+
+overriding
+
+f protected m1(){father} -> son protected/public m1(){son}
+
+access modifier for child's class methods should be either same modifer of parent class method or greater than parent's methods
+
+Inhritance:
+-------------
+single level
+multi level
+hierarch
+hybrid
+mutiple
+
+
+Drawback of using Arrays:
+-------------------------
+1. Size is fixed
+2. fixed datatype
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
