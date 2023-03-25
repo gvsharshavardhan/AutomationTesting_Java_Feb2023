@@ -1,5 +1,7 @@
 package Session_3.encapsulation;
 
+import Session_4.IncorrectCredentialException;
+
 public class Bank {
 
     private long amt;
@@ -18,6 +20,8 @@ public class Bank {
     void deposit(int depositAmt, String uname, String password) {
         if (uname.equals(this.uname) && password.equals(this.password)) {
             amt = amt + depositAmt;
+        }else{
+            throw new IncorrectCredentialException("Uname or password are incorrect!!");
         }
     }
 

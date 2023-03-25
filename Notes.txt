@@ -206,13 +206,58 @@ Drawback of using Arrays:
 
 
 
+Collections:
+------------
+
+Collections
+1. List (I)
+    1. ArrayList
+    2. LinkedList
+2. Set (I)
+    1. HashSet
+    2. LinkedHashSet
+
+
+collection:
+------------
+1. List can store any number of elements
+2. can store any date type
+3. Dynamic in size
+
+List:
+-------
+4. It allows duplicate elements
+5. You can insert null into the list
+6. Insertion order is preserved
+7. Follows indexing
+
+
+ArrayList vs LinkedList:
+-------------------------
+way how they store elements inside memory
 
 
 
+Set:
+-------
+1. It will not allow duplicates
+2. Insertion order is not preserved
+3. null values are allowed
+4. Index system is not application
 
 
+Exceptions:
+-----------------
+
+compile time
+
+run time
+checked, unchecked
 
 
+errors
+---------
+user cannot handle errors , eg: hardware related problem(memory outage)
 
 
 
